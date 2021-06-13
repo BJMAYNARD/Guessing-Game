@@ -22,7 +22,10 @@ while game is True:
 		print("By golly --- you got it!")
 		print("Would you like to play again?")
 		answer = input ("yes or no? ")
-		if answer == "yes":
+		if answer == "yes":	
+			import random
+			import time
+			secret_number = random.randint (1, 50)
 			game = True
 			chances = 10
 		elif answer == "no":
@@ -41,6 +44,9 @@ while game is True:
 			print("Would you like to play again?")
 			answer = input ("yes or no? ")
 			if answer == "yes":
+				import random
+				import time
+				secret_number = random.randint (1, 50)
 				game = True
 				chances = 10
 			elif answer == "no":
@@ -60,6 +66,9 @@ while game is True:
 			print("Would you like to play again?")
 			answer = input("yes or no? ")
 			if answer == "yes":
+				import random
+				import time
+				secret_number = random.randint (1, 50)
 				game = True
 				chances = 10
 			elif answer == "no":
